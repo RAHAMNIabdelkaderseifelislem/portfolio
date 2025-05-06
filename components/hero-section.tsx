@@ -106,7 +106,7 @@ const HeroSection = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cloud-white leading-tight">
                 Neural Nexus
               </h1>
-              <p className="text-xl md:text-2xl text-vibrant-teal font-medium">
+              <p className="text-xl md:text-2xl text-secondary font-bold">
                 Where AI Research Meets Real-World Innovation
               </p>
             </div>

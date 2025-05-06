@@ -58,11 +58,11 @@ const SkillRadarChart: React.FC<SkillRadarChartProps> = ({ data, strokeColor, fi
 const SkillsSection = () => {
   return (
     // Revert to original gradient using theme color names
-    <section id="skills" className="py-20 bg-gradient-to-b from-deep-indigo/90 to-deep-indigo relative">
+    <section id="skills" className="py-20 from-deep-indigo/90 to-deep-indigo relative">
       {/* Optional: Add subtle background elements if needed */}
       <div className="neural-lines"></div>
 
-      <div className="container px-4 relative z-10">
+      <div className="container px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -87,8 +87,8 @@ const SkillsSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
         >
             {/* Revert TabsList background/border to original style */}
-            <Tabs defaultValue="ai" className="w-full max-w-4xl mx-auto">
-              <TabsList className="grid grid-cols-3 mb-8 border border-info/20 backdrop-blur-sm p-1 rounded-lg">
+            <Tabs defaultValue="ai" className="w-full">
+              <TabsList className="grid grid-cols-3 mb-6 bg-deep-indigo/50 border border-accent-lavender/20">
                 {categoryTabs.map((tab) => (
                   <TabsTrigger
                     key={tab.value}
@@ -109,11 +109,11 @@ const SkillsSection = () => {
 
                 {/* Tab Content Panes */}
                  {categoryTabs.map((tab) => (
-                    <TabsContent key={tab.value} value={tab.value} className="mt-0 focus-visible:ring-0 focus-visible:ring-offset-0" >
+                    <TabsContent key={tab.value} value={tab.value} className="mt-0 focus-visible:ring-0 focus-visible:ring-offset-0 bg-deep-indigo/50 border border-accent-lavender/20  rounded-xl" >
                          {/* Revert Card background/border */}
-                        <Card className="bg-secondary/50 border border-info/20 backdrop-blur-sm">
+                        <Card className="gap-8 items-center">
                          <CardContent className="p-4 sm:p-6">
-                            <div className="h-[300px] sm:h-[350px] w-full">
+                            <div className="relative h-[400px] overflow-hidden">
                                  {/* Keep calling the enhanced Radar Chart */}
                                  <SkillRadarChart data={tab.data} strokeColor={tab.stroke} fillColor={tab.fill} />
                             </div>

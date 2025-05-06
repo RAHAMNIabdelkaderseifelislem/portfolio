@@ -5,6 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
+import FloatingContactButton from "@/components/floating-contact-button"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -87,6 +88,7 @@ export default function RootLayout({
             <Navigation />
             <main className="flex-1">{children}</main>
             <Footer />
+            <FloatingContactButton />
           </div>
         </ThemeProvider>
       </body>
