@@ -38,8 +38,8 @@ const SkillRadarChart: React.FC<SkillRadarChartProps> = ({ data, strokeColor, fi
         />
          <Tooltip
             contentStyle={{
-                //backgroundColor: 'rgba(45, 48, 71, 0.8)', // secondary/80
-                //borderColor: 'rgba(125, 130, 184, 0.5)', // info/50
+                backgroundColor: 'rgba(45, 48, 71, 0.8)', // secondary/80
+                borderColor: 'rgba(125, 130, 184, 0.5)', // info/50
                 borderRadius: '8px',
                 fontFamily: 'var(--font-body)',
                 fontSize: '12px',
