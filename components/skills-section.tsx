@@ -38,8 +38,8 @@ const SkillRadarChart: React.FC<SkillRadarChartProps> = ({ data, strokeColor, fi
         />
          <Tooltip
             contentStyle={{
-                backgroundColor: 'rgba(45, 48, 71, 0.8)', // secondary/80
-                borderColor: 'rgba(125, 130, 184, 0.5)', // info/50
+                //backgroundColor: 'rgba(45, 48, 71, 0.8)', // secondary/80
+                //borderColor: 'rgba(125, 130, 184, 0.5)', // info/50
                 borderRadius: '8px',
                 fontFamily: 'var(--font-body)',
                 fontSize: '12px',
@@ -109,11 +109,11 @@ const SkillsSection = () => {
 
                 {/* Tab Content Panes */}
                  {categoryTabs.map((tab) => (
-                    <TabsContent key={tab.value} value={tab.value} className="mt-0 focus-visible:ring-0 focus-visible:ring-offset-0 bg-deep-indigo/50 border border-accent-lavender/20  rounded-xl" >
+                    <TabsContent key={tab.value} value={tab.value} className="mb-6 bg-transparent border border-accent-lavender/20 rounded-xl" >
                          {/* Revert Card background/border */}
-                        <Card className="gap-8 items-center">
+                        <Card className="gap-8 items-center bg-deep-indigo/50 border border-accent-lavender/20">
                          <CardContent className="p-4 sm:p-6">
-                            <div className="relative h-[400px] overflow-hidden">
+                            <div className="relative h-[400px]">
                                  {/* Keep calling the enhanced Radar Chart */}
                                  <SkillRadarChart data={tab.data} strokeColor={tab.stroke} fillColor={tab.fill} />
                             </div>
