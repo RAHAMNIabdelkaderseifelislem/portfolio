@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Brain, Database, Lightbulb } from "lucide-react"
+import ResearchCitations from "@/components/research-citations"
 
 const ResearchSection = () => {
   return (
@@ -173,6 +174,11 @@ const ResearchSection = () => {
               </CardContent>
             </Card>
           </motion.div>
+        </div>
+
+        {/* Research citations (Research & Innovation Hub) */}
+        <div className="mt-8">
+          <ResearchCitations top={3} />
         </div>
       </div>
     </section>

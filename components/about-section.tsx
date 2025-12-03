@@ -104,6 +104,7 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
+        {/* Research citations moved to Research & Innovation Hub */}
       </div>
     </section>
   )
