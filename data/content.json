@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "name": "AbdElKader Seif El Islem Rahmani",
+    "shortName": "A.E.S. Rahmani",
+    "kicker": "PhD candidate · Lead AI Engineer · University lecturer",
+    "headline": "Researching how agents improve themselves. Building the systems that run them.",
+    "intro": "PhD research on generative-AI methods for autonomous agents and self-improvement behavior, alongside production AI engineering (LLM workflows, RAG, agent systems, backend infrastructure) and university teaching.",
+    "researchFocus": "Generative-AI methods for autonomous agents and self-improvement behavior, PhD in Computer Science (Artificial Intelligence), University Centre of Naama.",
+    "researchAreas": "Autonomous and self-improving agents, LLM systems, adaptive multi-agent systems, reliable AI architectures.",
+    "aboutParagraphs": [
+      "I research how LLM-based agents can retain, reflect and adapt, and I build AI systems for real clients. Each side corrects the other: production shows where agent ideas break, and research gives structure to what I build.",
+      "Currently: PhD work on generative-AI methods for autonomous agents, AI platform engineering as a technical owner, and teaching computer science and AI courses at the universities of Naama and Saida. Languages: Arabic (native), English (fluent), French (conversational)."
+    ]
+  },
+  "stats": [
+    { "value": "6", "label": "Published papers" },
+    { "value": "7", "label": "Teaching assignments, 2025–2027" },
+    { "value": "70+", "label": "Production releases, Systelium" },
+    { "value": "2", "label": "Universities teaching at" }
+  ],
+  "papers": [
+    {
+      "title": "Architectural Patterns for Self-Improving Intelligent Agents: A Systematic Survey of Generative and Cognitive Approaches",
+      "authors": "AbdElKader Seif El Islem Rahmani, Yasser Yahiaoui, Abdelghani Bouziane",
+      "venue": "SN Computer Science, vol. 7",
+      "type": "Journal article",
+      "year": "2026", "month": "09", "pages": "", "doi": "10.1007/s42979-026-05333-6", "isbn": "", "url": "",
+      "tags": ["survey", "self-improvement", "agent architectures"]
+    },
+    {
+      "title": "Retention-Augmented Voice Assistant: A Lightweight Architecture for Stateful Interaction with Comprehensive Evaluation and Privacy-Preserving Design",
+      "authors": "AbdElKader Seif El Islem Rahmani, Yasser Yahiaoui, Abdelghani Bouziane",
+      "venue": "International Conference on Speech and Computer (SPECOM), Springer Nature Switzerland",
+      "type": "Book chapter",
+      "year": "2025", "month": "10", "pages": "157-169", "doi": "10.1007/978-3-032-07956-5_11", "isbn": "978-3-032-07955-8", "url": "",
+      "tags": ["memory", "voice assistants", "privacy"]
+    },
+    {
+      "title": "Characterizing Stochastic Self-Improvement in Autonomous LLM Agents: Mechanism Isolation and Boundary Condition Analysis",
+      "authors": "AbdElKader Seif El Islem Rahmani, Yasser Yahiaoui, Abdelghani Bouziane",
+      "venue": "NCMAI'26, The First National Conference on Mathematics and Artificial Intelligence, Ouargla, Algeria",
+      "type": "Conference paper",
+      "year": "2026", "month": "04", "pages": "", "doi": "", "isbn": "", "url": "",
+      "tags": ["self-improvement", "LLM agents"]
+    },
+    {
+      "title": "MIND-META: A Monitoring-Based Adaptive Strategy for Non-Stationary Multi-Agent Collaboration",
+      "authors": "AbdElKader Seif El Islem Rahmani, Yasser Yahiaoui, Abdelghani Bouziane, Anes Abdelouahab Mahammedi, Mohammed Maati",
+      "venue": "NCIIT26, University of Saida",
+      "type": "Conference paper",
+      "year": "2026", "month": "09", "pages": "", "doi": "", "isbn": "", "url": "",
+      "tags": ["multi-agent", "adaptation", "non-stationarity"]
+    },
+    {
+      "title": "Semantic Annotation of Arabic Text: A Pipeline-Centric Review",
+      "authors": "Anes Abdelouahab Mahammedi, Abdelghani Bouziane, Yasser Yahiaoui, Djelloul Bouchiha, AbdElKader Seif El Islem Rahmani, Mohammed Maati",
+      "venue": "NCIIT26, University of Saida",
+      "type": "Conference paper (co-authored review)",
+      "year": "2026", "month": "09", "pages": "", "doi": "", "isbn": "", "url": "",
+      "tags": ["Arabic NLP", "semantic annotation", "review"]
+    },
+    {
+      "title": "Arabic Dialect Identification on Social Media: A Review of Datasets, Models, and Emerging Trends",
+      "authors": "Mohammed Maati, Abdelghani Bouziane, Djelloul Bouchiha, Anes Abdelouahab Mahammedi, AbdElKader Seif El Islem Rahmani",
+      "venue": "NCIIT26, University of Saida",
+      "type": "Conference paper (co-authored review)",
+      "year": "2026", "month": "09", "pages": "", "doi": "", "isbn": "", "url": "",
+      "tags": ["Arabic NLP", "dialect identification", "review"]
+    }
+  ],
+  "evolution": [
+    { "date": "Oct 2025 · book chapter", "text": "Retention and stateful interaction: a lightweight voice-assistant architecture with privacy-preserving design." },
+    { "date": "Apr 2026 · NCMAI'26", "text": "Mechanism: isolating stochastic self-improvement in LLM agents." },
+    { "date": "Sep 2026 · SN Computer Science", "text": "Architectural analysis: a systematic survey of generative and cognitive self-improving agents." },
+    { "date": "Sep 2026 · NCIIT26", "text": "Adaptation: monitoring-based strategy for non-stationary multi-agent collaboration, plus two co-authored Arabic NLP reviews." }
+  ],
+  "courses": [
+    {
+      "year": "2026–2027", "semester": "1st semester",
+      "title": "Applications of Deep Learning in Finance", "level": "Master 1",
+      "institution": "University of Saida", "department": "Faculty of Economics",
+      "scope": "Full module", "parts": ["Course", "TD"], "status": "assigned", "note": ""
+    },
+    {
+      "year": "2026–2027", "semester": "1st semester",
+      "title": "Computer Architectures", "level": "2nd year licence, Computer Science",
+      "institution": "University of Naama", "department": "Computer Science dept.",
+      "scope": "Full module", "parts": ["Course", "TD", "TP", "Exam"], "status": "assigned", "note": ""
+    },
+    {
+      "year": "2026–2027", "semester": "1st semester",
+      "title": "Introduction to AI (practical work)", "level": "2nd year licence",
+      "institution": "University of Saida", "department": "Computer Science dept.",
+      "scope": "TPs, selected groups", "parts": ["TP"], "status": "pending", "note": "Teaching load being finalized."
+    },
+    {
+      "year": "2025–2026", "semester": "2nd semester",
+      "title": "Computer Tools", "level": "2nd year licence, Biology",
+      "institution": "University of Naama", "department": "Biology dept.",
+      "scope": "Full course", "parts": ["Course"], "status": "completed", "note": ""
+    },
+    {
+      "year": "2025–2026", "semester": "2nd semester",
+      "title": "Language Theory", "level": "2nd year, Computer Science",
+      "institution": "University of Saida", "department": "Computer Science dept.",
+      "scope": "TPs, selected groups", "parts": ["TP"], "status": "completed", "note": ""
+    },
+    {
+      "year": "2025–2026", "semester": "2nd semester",
+      "title": "Mathematical Logic", "level": "1st year, Computer Science",
+      "institution": "University of Naama", "department": "Computer Science dept.",
+      "scope": "TD only", "parts": ["TD"], "status": "completed", "note": ""
+    },
+    {
+      "year": "2025–2026", "semester": "1st semester",
+      "title": "Data Analysis", "level": "Master 1, Information Systems",
+      "institution": "University of Naama", "department": "Computer Science dept.",
+      "scope": "Full module", "parts": ["Course", "TD", "Exam"], "status": "completed", "note": ""
+    }
+  ],
+  "experience": [
+    {
+      "org": "Systelium", "role": "Lead AI Engineer (freelance)", "period": "06/2025 – present · Remote, France",
+      "lines": [
+        ["Problem", "Enterprise workflows with heavy manual document handling."],
+        ["System", "AI platform on FastAPI, PostgreSQL, async processing, microservices, Docker, CI/CD, with Google Gemini in production workflows."],
+        ["Result", "70+ production releases, 99.9% uptime, 70% less manual effort."]
+      ],
+      "footnote": "Sole technical owner, prototype to production."
+    },
+    {
+      "org": "AgriTechly", "role": "Deep Learning Engineer", "period": "07/2023 – 06/2024 · Remote",
+      "lines": [
+        ["System", "Plant disease detection models with end-to-end ML workflow: data prep, training, evaluation, optimization, deployment."],
+        ["Result", "+15% model accuracy, −20% inference latency."]
+      ],
+      "footnote": ""
+    },
+    {
+      "org": "Independent consulting", "role": "Freelance developer / AI consultant", "period": "01/2020 – present",
+      "lines": [["Scope", "20+ client projects end-to-end. AI-focused since January 2023: LLM applications, RAG pipelines and agent systems."]],
+      "footnote": ""
+    }
+  ],
+  "capabilities": [
+    ["Agents / AI", "Agentic AI, LLMs, RAG, embeddings, multi-agent systems, evaluation, tool use, structured outputs"],
+    ["Backend", "Python, FastAPI, Node.js, TypeScript, JavaScript, PostgreSQL"],
+    ["Infrastructure", "Docker, CI/CD, GitHub Actions"],
+    ["ML tooling", "PyTorch, TensorFlow, Hugging Face, LangChain, LangSmith, W&B"],
+    ["Governance", "ISO/IEC 42001 Lead Implementer training, AI risk and lifecycle management"]
+  ],
+  "cv": {
+    "file": "AbdElKader_Seif_El_Islem_Rahmani_-_AI_ML_Engineer.pdf",
+    "headline": "Senior AI Engineer | Agentic AI, LLM Systems & AI Infrastructure",
+    "experience": [
+      "Lead AI Engineer (Freelance), Systelium — 06/2025–present",
+      "Deep Learning Engineer, AgriTechly — 07/2023–06/2024",
+      "Independent Freelance Developer / AI Consultant — 01/2020–present"
+    ],
+    "education": [
+      "Ph.D. Computer Science | AI, University Centre of Naama",
+      "M.Sc. Computer Science, University of Saida",
+      "B.Sc. Computer Science, University of Saida"
+    ],
+    "certifications": [
+      "ISO/IEC 42001 Lead Implementer Certificate, PECB",
+      "Huawei Seeds for the Future 2024",
+      "2× Hackathon 2nd place"
+    ]
+  },
+  "contact": {
+    "academicEmail": "rahmani.abdelkaderseifelislem@cuniv-naama.dz",
+    "professionalEmail": "a.e.k426rahmani@gmail.com",
+    "whatsapp": "213668704202",
+    "links": [
+      ["Google Scholar", "https://scholar.google.com/citations?user=ZxpseiwAAAAJ&hl=en", "Scholarly record and citations."],
+      ["ResearchGate", "https://www.researchgate.net/profile/Abdelkader-Seif-El-Islem-Rahmani/", "Research presence and papers."],
+      ["LinkedIn", "https://www.linkedin.com/in/aek-seif-el-islem-rahmani/", "Career record."],
+      ["GitHub", "https://github.com/RAHAMNIabdelkaderseifelislem/", "Code and repositories."]
+    ],
+    "services": [
+      ["LLM / RAG application", "LLM-powered application or RAG pipeline"],
+      ["AI agent system", "AI agent system built from the ground up"],
+      ["Backend & deployment", "FastAPI backend, Docker and CI/CD deployment"],
+      ["Deep learning / vision", "deep learning or computer vision model"],
+      ["AI consulting", "AI consulting and architecture review"],
+      ["AI governance", "ISO/IEC 42001 AI governance"],
+      ["Research collaboration", "an academic research collaboration"]
+    ]
+  }
+}
