@@ -17,6 +17,7 @@ Research / engineering / teaching portfolio with a built-in admin board.
 
 ## How editing works
 - `data/content.json` is the built-in content (papers, courses, stats, experience, CV, contact).
+- `/admin` is a dashboard for everything on the site: stats, papers, courses, experience, CV lists (education, certifications), skills, research map and timeline, headline and about text, contact links, WhatsApp buttons, photo and resume. Unsaved edits are also kept in your browser, so a refresh never loses them.
 - `/admin` saves edits to Netlify Blobs (automatic on Netlify, no setup). The public page reads them on every request, so changes show immediately.
 - **Export JSON** downloads the current content. To make edits permanent in the repo, replace `data/content.json` with it and commit.
 - **Reset to built-in** deletes the saved edits and falls back to `data/content.json`.

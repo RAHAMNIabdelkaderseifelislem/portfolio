@@ -16,11 +16,11 @@ function LoopDiagram() {
   return (
     <svg className="lp" viewBox="0 0 340 340" role="img" aria-label="The self-improvement loop: propose, act, reflect, revise">
       <circle className="ring" cx="170" cy="170" r="110" />
-      <g className="spin"><circle cx="170" cy="60" r="8" fill="var(--saffron)" /></g>
-      <circle className="node" cx="170" cy="60" r="26" /><text x="170" y="64" textAnchor="middle">propose</text>
-      <circle className="node" cx="280" cy="170" r="26" /><text x="280" y="174" textAnchor="middle">act</text>
-      <circle className="node" cx="170" cy="280" r="26" /><text x="170" y="284" textAnchor="middle">reflect</text>
-      <circle className="node" cx="60" cy="170" r="26" /><text x="60" y="174" textAnchor="middle">revise</text>
+      <g className="spin"><circle cx="170" cy="60" r="8" fill="var(--saffron)" stroke="var(--card)" strokeWidth="2" /></g>
+      <circle className="node" cx="170" cy="60" r="34" /><text x="170" y="64" textAnchor="middle">propose</text>
+      <circle className="node" cx="280" cy="170" r="34" /><text x="280" y="174" textAnchor="middle">act</text>
+      <circle className="node" cx="170" cy="280" r="34" /><text x="170" y="284" textAnchor="middle">reflect</text>
+      <circle className="node" cx="60" cy="170" r="34" /><text x="60" y="174" textAnchor="middle">revise</text>
     </svg>
   );
 }
@@ -120,12 +120,11 @@ export default async function Home() {
                 <p><b>Focus.</b> {p.researchFocus}</p>
                 <p><b>Areas.</b> {p.researchAreas}</p>
               </div>
-              <div className="map" role="img" aria-label="Research map: intelligent agents branch into retention, self-improvement, adaptation and multi-agent collaboration">
-                <div><i className="r">Intelligent agents</i></div>
-                <div>→ <i>Retention / memory</i> <span className="mute">Voice assistant</span></div>
-                <div>→ <i>Self-improvement</i> <span className="mute">Stochastic analysis · Survey</span></div>
-                <div>→ <i>Adaptation</i> <span className="mute">Non-stationary settings</span></div>
-                <div>→ <i>Multi-agent collaboration</i> <span className="mute">MIND-META</span></div>
+              <div className="map" role="img" aria-label="Research map">
+                <div><i className="r">{p.researchRoot || "Intelligent agents"}</i></div>
+                {(c.researchMap || []).map((m, i) => (
+                  <div key={i}>→ <i>{m.label}</i> <span className="mute">{m.note}</span></div>
+                ))}
               </div>
             </div>
             <h3 style={{ margin: "36px 0 16px" }}>Research evolution</h3>
@@ -198,7 +197,7 @@ export default async function Home() {
                   <h3>{e.org}</h3>
                   <p className="meta">{e.role} · {e.period}</p>
                   <p>
-                    {e.lines.map((l, j) => (<span key={j}><b>{l[0]}.</b> {l[1]}<br /></span>))}
+                    {(e.lines || []).map((l, j) => (<span key={j}><b>{l[0]}.</b> {l[1]}<br /></span>))}
                   </p>
                   {e.footnote && <p className="meta">{e.footnote}</p>}
                 </div>
