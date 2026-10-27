@@ -2,14 +2,18 @@
   "profile": {
     "name": "AbdElKader Seif El Islem Rahmani",
     "shortName": "A.E.S. Rahmani",
-    "kicker": "PhD candidate · Lead AI Engineer · University lecturer",
-    "headline": "Researching how agents improve themselves. Building the systems that run them.",
-    "intro": "PhD research on generative-AI methods for autonomous agents and self-improvement behavior, alongside production AI engineering (LLM workflows, RAG, agent systems, backend infrastructure) and university teaching.",
+    "kicker": "AI Researcher · Lead AI Engineer · University Lecturer",
+    "headline": "I work at the intersection of artificial intelligence research, production software engineering, and higher education.",
+    "intro": "As a PhD researcher in Artificial Intelligence at the University of Naama — Salhi Ahmed, my research focuses on methods for building autonomous intelligent agents capable of improving their behavior through experience.",
     "researchFocus": "Generative-AI methods for autonomous agents and self-improvement behavior, PhD in Computer Science (Artificial Intelligence), University Centre of Naama.",
     "researchAreas": "Autonomous and self-improving agents, LLM systems, adaptive multi-agent systems, reliable AI architectures.",
     "aboutParagraphs": [
-      "I research how LLM-based agents can retain, reflect and adapt, and I build AI systems for real clients. Each side corrects the other: production shows where agent ideas break, and research gives structure to what I build.",
-      "Currently: PhD work on generative-AI methods for autonomous agents, AI platform engineering as a technical owner, and teaching computer science and AI courses at the universities of Naama and Saida. Languages: Arabic (native), English (fluent), French (conversational)."
+      "I investigate self-improving LLM agents, adaptive strategies, memory and knowledge retention, stochastic optimization, symbolic reasoning, and multi-agent collaboration. My broader objective is to understand how intelligent systems can become more adaptive, persistent, and reliable over time.",
+      "Alongside my academic research, I work as a Lead AI Engineer, developing and deploying AI-powered applications and production software systems. My engineering experience spans LLM-based applications, backend architecture, APIs, databases, deep learning, testing, containerization, and CI/CD. I value solutions that move beyond promising demonstrations toward practical systems with measurable outcomes, maintainable architectures, and dependable operation.",
+      "I am also a part time university Lecturer, lecturing computer science and related technical subjects. This role strengthens my ability to communicate complex ideas, connect theoretical foundations with practical applications, and approach technical problems from multiple perspectives.",
+      "My work also extends to AI governance and the implementation of AI management practices aligned with ISO/IEC 42001. I am interested in the relationship between technical capability, reliability, accountability, and the organizational processes needed to develop and operate AI systems responsibly.",
+      "I see research, engineering, and lecturing as complementary disciplines. Research helps me identify and investigate difficult problems. Engineering allows me to turn ideas into working systems. Lecturing challenges me to understand concepts deeply enough to explain them clearly.",
+      "My direction is to contribute to the development of intelligent systems that do more than generate outputs: systems that learn from experience, adapt to change, preserve useful knowledge, and improve in a measurable and responsible way."
     ],
     "researchRoot": "Intelligent agents"
   },
@@ -20,7 +24,7 @@
     },
     {
       "value": "7",
-      "label": "Teaching assignments, 2025–2027"
+      "label": "Lecturing assignments, 2025–2027"
     },
     {
       "value": "70+",
@@ -28,7 +32,7 @@
     },
     {
       "value": "2",
-      "label": "Universities teaching at"
+      "label": "Universities lecturing at"
     }
   ],
   "papers": [

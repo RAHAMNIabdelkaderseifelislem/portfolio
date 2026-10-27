@@ -5,7 +5,7 @@ import { useEffect, useId, useRef, useState } from "react";
 const BLANK = {
   stats: { value: "", label: "" },
   papers: { title: "", authors: "", venue: "", type: "Conference paper", year: "", month: "", pages: "", doi: "", isbn: "", url: "", tags: [] },
-  courses: { year: "", semester: "1st semester", title: "", level: "", institution: "", department: "", scope: "", parts: [], status: "assigned", note: "" },
+  courses: { year: "", semester: "1st semester", title: "", level: "", institution: "", department: "", scope: "", parts: [], status: "assigned", note: "", materialsUrl: "" },
   experience: { org: "", role: "", period: "", lines: [["Problem", ""], ["System", ""], ["Result", ""]], footnote: "" },
   evolution: { date: "", text: "" },
   researchMap: { label: "", note: "" }
@@ -23,7 +23,8 @@ const FIELDS = {
     ["year", "Academic year (e.g. 2026–2027)"], ["semester", "Semester"], ["title", "Course title"], ["level", "Level / specialty"],
     ["institution", "University"], ["department", "Department / faculty"], ["scope", "Scope (e.g. Full module, TD only)"],
     ["parts", "Parts (comma separated: Course, TD, TP, Exam)", "list"],
-    ["status", "Status", "select", ["completed", "assigned", "pending"]], ["note", "Note (optional)"]
+    ["status", "Status", "select", ["completed", "assigned", "pending"]], ["note", "Note (optional)"],
+    ["materialsUrl", "Coursework materials (Drive link, optional)"]
   ],
   experience: [
     ["org", "Organization"], ["role", "Role"], ["period", "Period and place (e.g. 06/2025 – present · Remote)"],

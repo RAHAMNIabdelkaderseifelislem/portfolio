@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL(SITE),
   title: "AbdElKader Seif El Islem Rahmani — AI Research & Intelligent Agents Engineering",
   description:
-    "PhD candidate researching autonomous and self-improving LLM agents, Lead AI Engineer building production agentic systems, and university lecturer. Publications, teaching, engineering work and CV.",
+    "AI Researcher investigating autonomous and self-improving LLM agents, Lead AI Engineer building production agentic systems, and university Lecturer. Publications, lecturing, engineering work and CV.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "profile",

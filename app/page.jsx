@@ -79,7 +79,7 @@ export default async function Home() {
         <nav aria-label="Main">
           <b><Star />{p.shortName}</b>
           {["home", "research", "publications", "teaching", "engineering", "resume", "about", "contact"].map((s) => (
-            <a key={s} href={`#${s}`}>{s[0].toUpperCase() + s.slice(1)}</a>
+            <a key={s} href={`#${s}`}>{s === "teaching" ? "Lecturing" : s[0].toUpperCase() + s.slice(1)}</a>
           ))}
           <ThemeToggle />
         </nav>
@@ -90,8 +90,9 @@ export default async function Home() {
             <div className="hero">
               <div>
                 <p className="k">{p.kicker}</p>
-                <h1>{p.headline}</h1>
-                <p className="mute lead">{p.name} — {p.intro}</p>
+                <h1>{p.name}</h1>
+                <p className="hero-tagline">{p.headline}</p>
+                <p className="mute lead">{p.intro}</p>
                 <div className="btns">
                   <a className="b p" href="#research">Read the research</a>
                   <a className="b" href="#contact">Work with me</a>
@@ -160,8 +161,8 @@ export default async function Home() {
 
         <section id="teaching">
           <div className="w">
-            <h2>University teaching</h2>
-            <p className="mute">Courses, tutorials (TD) and practical work (TP) at the universities of Naama and Saida.</p>
+            <h2>University lecturing</h2>
+            <p className="mute">Lectures, tutorials (TD) and practical work (TP) at the universities of Naama and Saida. Coursework materials are linked where available.</p>
             {years.map((y) => (
               <div key={y.year}>
                 <p className="yr">{y.year}</p>
@@ -176,6 +177,7 @@ export default async function Home() {
                             <h3>{x.title}</h3>
                             <div className="meta">{x.level} · {x.institution}{x.department ? `, ${x.department}` : ""}</div>
                             <div className="meta">{x.scope}{x.parts?.length ? ` (${x.parts.join(" + ")})` : ""}{x.note ? ` · ${x.note}` : ""}</div>
+                            {x.materialsUrl && <a className="course-link" href={safeUrl(x.materialsUrl)} target="_blank" rel="noopener noreferrer">Coursework materials ↗</a>}
                           </div>
                           <span className={`badge ${cls}`}>{label}</span>
                         </article>
